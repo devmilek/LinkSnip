@@ -8,4 +8,9 @@ export default defineNuxtConfig({
         },
     },
     css: ['~/assets/css/tailwind.css'],
+    runtimeConfig: {
+        public: {
+            appUrl: process.env.APP_URL,
+        },
+    },
 })

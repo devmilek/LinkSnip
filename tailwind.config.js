@@ -4,7 +4,9 @@ module.exports = {
     "./components/**/*.{js,vue,ts}",
     "./components/*.{js,vue,ts}",
     "./layouts/**/*.vue",
+    "./layouts/*.vue",
     "./pages/**/*.vue",
+    "./pages/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
     "./app.vue",
@@ -12,6 +14,9 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    // ...
+  ],
 }
 

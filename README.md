@@ -1,42 +1,42 @@
-# Nuxt 3 Minimal Starter
+# LinkSnip
+LinkSnip is a link shortening application built using Nuxt 3.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Installation
+1. Clone the repository: git clone https://github.com/your-username/LinkSnip.git
+2. Navigate to the project directory: cd LinkSnip
+3. Install the dependencies: npm install
 
-## Setup
+## Usage
+1. Start the development server: npm run dev
+2. Open a web browser and go to http://localhost:3000
 
-Make sure to install the dependencies:
+## Features
+- Shorten long URLs
+- View analytics for each shortened link
+- Customizable short link URLs
+- Simple and clean user interface
 
-```bash
-# yarn
-yarn install
+## Technologies Used
+- Nuxt 3
+- Vue.js
+- Node.js
+- Supabase
 
-# npm
-npm install
+## Contributing
+1. Fork the repository
+2. Make your changes
+3. Submit a pull request
 
-# pnpm
-pnpm install
-```
+## TODO
+- [ ] Add a `CONTRIBUTING.md` file
+- [ ] Make 404 page
+- [ ] Route guards
+- [ ] Translate auth errors
+- [ ] Add pages meta tags
 
-## Development Server
+## Credits
+- Author: Your Name
+- License: MIT
 
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## License
+This project is licensed under the terms of the MIT license.
