@@ -30,7 +30,7 @@ LinkSnip is a link shortening application built using Nuxt 3.
 ## TODO
 - [ ] Add a `CONTRIBUTING.md` file
 - [ ] Make 404 page
-- [ ] Route guards
+- [x] Route guards
 - [ ] Translate auth errors
 - [ ] Add pages meta tags
 
