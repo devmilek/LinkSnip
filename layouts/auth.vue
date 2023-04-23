@@ -1,27 +1,29 @@
 <template>
-  <main class="w-full h-screen flex items-center justify-center">
-    <div class="card bg-neutral-900/40 max-w-lg py-14 px-9 w-full rounded-2xl border border-neutral-600">
-      <slot/>
+  <main class="flex h-screen w-full items-center justify-center">
+    <div
+      class="card w-full max-w-lg rounded-2xl border border-neutral-600 bg-neutral-900/40 px-9 py-14"
+    >
+      <slot />
     </div>
   </main>
 </template>
 
 <script>
 export default {
-  name: "auth"
+  name: 'auth',
 }
 </script>
 
 <style scoped>
 .card::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 20%;
   height: 40%;
-  background: #9333EA;
+  background: #9333ea;
   backdrop-filter: blur(60px);
   filter: blur(222px);
   z-index: -2;
