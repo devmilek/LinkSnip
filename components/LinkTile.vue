@@ -11,12 +11,20 @@
       </h2>
       <p class="mt-2 truncate text-neutral-500">{{ props.link.redirect_to }}</p>
     </div>
-    <button
-      class="ml-4 whitespace-nowrap rounded-md bg-purple-600 px-3.5 py-2.5 text-sm font-semibold text-white transition-all hover:bg-purple-700"
-      @click.prevent="handleCopy"
-    >
-      Kopiuj link
-    </button>
+    <div class="flex">
+      <button
+        class="ml-4 whitespace-nowrap rounded-md bg-purple-600 px-3.5 py-2.5 text-sm font-semibold text-white transition-all hover:bg-purple-700"
+        @click.prevent="handleCopy"
+      >
+        Kopiuj link
+      </button>
+      <button
+        class="ml-4 whitespace-nowrap rounded-md border border-white/20 bg-transparent px-3.5 py-2.5 text-sm font-semibold text-white transition-all hover:bg-gray-800"
+        @click.prevent="handleCopy"
+      >
+        Ustawienia
+      </button>
+    </div>
   </NuxtLink>
 </template>
 

@@ -46,20 +46,19 @@
         <h1
           class="text-4xl font-bold tracking-tight tracking-wide text-gray-50 sm:text-6xl"
         >
-          Skracaj linki i udostępniaj je w mgnieniu oka
+          {{ $t('heroHeading') }}
         </h1>
         <p class="mt-6 text-lg leading-8 text-gray-400">
-          Dzielenie się linkami jeszcze nigdy nie było takie proste - skorzystaj
-          z naszego narzędzia do skracania linków już dziś
+          {{ $t('heroSubheading') }}
         </p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
           <NuxtLink
             to="/dashboard"
             class="rounded-md bg-purple-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-purple-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600"
-            >Skróć teraz</NuxtLink
+            >{{ $t('shortNow') }}</NuxtLink
           >
           <a href="#" class="text-sm font-semibold leading-6 text-gray-400"
-            >Zobacz więcej <span aria-hidden="true">→</span></a
+            >{{ $t('seeMore') }} <span aria-hidden="true">→</span></a
           >
         </div>
       </div>
