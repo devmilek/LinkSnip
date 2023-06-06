@@ -15,11 +15,13 @@
       </ul>
       <div v-if="user" class="flex gap-4">
         <button class="btn-secondary" @click="handleSignOut">
-          Wyloguj się
+          {{ $t('signOut') }}
         </button>
         <NuxtLink class="btn" to="/dashboard">Dashboard</NuxtLink>
       </div>
-      <NuxtLink class="btn" v-if="!user" to="/login">Zaloguj się</NuxtLink>
+      <NuxtLink class="btn" v-if="!user" to="/login">{{
+        $t('signIn')
+      }}</NuxtLink>
     </nav>
   </div>
 </template>
