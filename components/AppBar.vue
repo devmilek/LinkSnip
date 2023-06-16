@@ -27,6 +27,7 @@
 </template>
 
 <script setup>
+// small change
 const user = useSupabaseUser()
 const navLinks = ref([
   {
